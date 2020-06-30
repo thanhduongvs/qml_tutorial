@@ -1,9 +1,10 @@
 import QtQuick 2.12
 import QtQuick.Window 2.12
+import "../components"
 
 Window {
-    visible: true
-    width: 640
-    height: 480
-    title: qsTr("Hello World")
+    id: applicationWindow
+
+    property double dp: Screen.pixelDensity * 25.4 / 160
+    readonly property Palette palette: Palette{}
 }

@@ -1,20 +1,25 @@
 import QtQuick 2.12
 import QtQuick.Controls 2.12
+import "controls"
 
 ApplicationWindow {
     visible: true
     width: 640
     height: 480
     title: qsTr("Hello World")
+    color: palette.blak
 
-    Row {
-        Button {
-            text: "Ok"
-            onClicked: model.submit()
+    Column{
+        ButtonOutline{
+            text: "ZZZ"
         }
-        Button {
-            text: "Cancel"
-            onClicked: model.revert()
+
+        ButtonImage{
+            id: myButton
+            onMybut_clicked: {
+                console.log("button1 clicked, val = " + myButton.isClicked)
+            }
         }
+
     }
 }

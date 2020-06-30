@@ -2,5 +2,8 @@
     <qresource prefix="/">
         <file>qml/main.qml</file>
         <file>qml/controls/ApplicationWindow.qml</file>
+        <file>qml/controls/ButtonOutline.qml</file>
+        <file>qml/controls/ButtonImage.qml</file>
+        <file>qml/components/Palette.qml</file>
     </qresource>
 </RCC>

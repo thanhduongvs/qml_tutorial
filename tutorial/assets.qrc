@@ -12,5 +12,7 @@
         <file>assets/fonts/Roboto-Regular.ttf</file>
         <file>assets/fonts/Roboto-Thin.ttf</file>
         <file>assets/fonts/Roboto-ThinItalic.ttf</file>
+        <file>assets/images/light_off.png</file>
+        <file>assets/images/light_on.png</file>
     </qresource>
 </RCC>
